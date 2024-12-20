@@ -28,6 +28,17 @@ public class AccountManagementSteps {
         this.mockAccount = FeatureUtils.getMockAccount();
         this.accountRepository.save(this.mockAccount);
     }
+    @Given("an existing account with ID 1")
+    public void anExistingAccountWithID() {
+        // Hardcoding the mock account ID and details
+        Account mockAccount = new Account();
+        mockAccount.setId(1L);
+        mockAccount.setUsername("test_user");
+        mockAccount.setPassword("password123");
+        mockAccount.setFullName("Test User");
+
+        accountRepository.save(mockAccount);
+    }
 
     @When("the user sends a GET request to {string}")
     public void theUserSendsAGETRequestTo(String path) {

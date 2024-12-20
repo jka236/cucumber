@@ -14,7 +14,7 @@ import com.bogusdetector.bogusdetector.repository.AccountRepository;
 import com.bogusdetector.bogusdetector.utils.FeatureUtils;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AccountManagement {
+public class AccountManagementSteps {
     @Autowired
     private AccountRepository accountRepository;
     @Autowired

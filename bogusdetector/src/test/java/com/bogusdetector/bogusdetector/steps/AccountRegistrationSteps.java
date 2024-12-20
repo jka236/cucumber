@@ -12,7 +12,7 @@ import com.bogusdetector.bogusdetector.model.Account;
 import com.bogusdetector.bogusdetector.utils.FeatureUtils;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AccountRegistration {
+public class AccountRegistrationSteps {
     @Autowired
     private TestRestTemplate restTemplate;
     private ResponseEntity<Long> response;

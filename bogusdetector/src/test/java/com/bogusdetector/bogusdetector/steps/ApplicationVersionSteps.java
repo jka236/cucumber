@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import com.bogusdetector.bogusdetector.utils.FeatureUtils;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ApplicationVersion {
+public class ApplicationVersionSteps {
     @Autowired
     private TestRestTemplate restTemplate;
     private ResponseEntity<String> response;

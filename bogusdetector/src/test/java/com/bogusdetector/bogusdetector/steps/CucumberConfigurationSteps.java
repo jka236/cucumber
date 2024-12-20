@@ -7,6 +7,6 @@ import com.bogusdetector.bogusdetector.BogusDetectorApplication;
 
 @CucumberContextConfiguration
 @SpringBootTest(classes = BogusDetectorApplication.class, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-public class CucumberConfiguration {
+public class CucumberConfigurationSteps {
 
 }
